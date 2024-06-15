@@ -1,0 +1,86 @@
+@font-face {
+  font-family: '1';
+  src: url('/fontes/letra2/Brand.ttf');
+  font-weight: normal;
+  
+  font-style: normal;
+}
+
+@font-face {
+  font-family: '2';
+  src: url('/fontes/letra1/Elegante Classica.ttf');
+  font-weight: normal;
+  
+  font-style: normal;
+}
+
+html, body {
+  margin: 5;
+  padding: 5;
+}
+
+.Titulo h1 {
+  font-size: 35px;
+  font-family: "1";
+  position: absolute;
+  top: -23px;
+  left: 70px;
+  z-index: 10;
+}
+
+.retangulo {
+  position: absolute;
+  top: 35px;
+  left: -5px;
+  width: 430px;
+  height: 892px;
+  border: 10px solid #008000;
+  margin: 5px; 
+  box-sizing: border-box;
+ }
+      
+img {
+  position: absolute;
+  top: 3px;
+  left: 370px;
+ }
+  
+.menu a {
+    font-family: "2";
+    display: block;
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+.menu a:hover {
+    background-color: #5d665d;
+    opacity: 60%;
+    border-radius: 20px;
+ }
+    
+.barra {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 430px;
+    height: 40px;
+    background-color: #74e474;
+}
+ 
+.imagem1 {
+  position: absolute;
+  top: -3px;
+  left: 5px;
+  width: 50px;
+  height: 50px;
+}
+
+   .menu {
+  display: none;
+  position: absolute;
+  top: 35px;
+  background-color: green;
+  z-index: 10;
+  border-radius: 20px;
+}
